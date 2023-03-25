@@ -11,21 +11,4 @@ pode ser previamente definido no código;
 
 =end
 
-def fibonacci_sequence(number)
-  sequence = [0, 1]
-
-  while sequence.last <= number
-    next_number = sequence[-1] + sequence[-2]
-    sequence << next_number
-  end
-
-  if sequence.include?(number)
-    puts "#{number} pertence à sequência de Fibonacci"
-  else
-    puts "#{number} não pertence à sequência de Fibonacci"
-  end
-end
-
-fibonacci_sequence(21)
-
 
