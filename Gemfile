@@ -1,4 +1,3 @@
 source "https://rubygems.org"
 
-gem "rspec"
-gem "byebug"
+ruby "3.2.0"
